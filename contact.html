@@ -5,12 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
-    <link rel="stylesheet" href="/css/style-contact.css">
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-    <div class="main">
-        <!-- Nav-pc -->
-        
+      <header class="header">
+           <!-- Nav-pc -->
         <div class="nav">
             <input class="input-nav" type="checkbox" class='nav__input' name="" id="nav__input">
             <nav class="nav__pc">
@@ -27,6 +26,7 @@
             </label>
             <label for="nav__input" class="nav__overlay">
             </label>
+              <!-- nav mobile -->
             <nav  class="nav__mobile">
               <ul class="nav__mobile-list">
                 <li><a href="/index.html" class="nav__mobile-link">Home</a></li>
@@ -36,26 +36,36 @@
                 <li><a href="/contact.html" class="nav__mobile-link">Contact</a></li>
               </ul>
               <label for="nav__input" class="nav__mobile-btn">
-                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times" class="svg-inline--fa fa-times fa-w-11" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512"><path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"></path></svg>
+                <svg aria-hidden="true" focusable="fal  se" data-prefix="fas" data-icon="times" class="svg-inline--fa fa-times fa-w-11" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512"><path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"></path></svg>
               </label>
             </nav>
           </div>
+        </header>
         <div class="main_content"> 
           <h1 class="Form-h1">dang nhap</h1>          
           <form action="">
             <div class="input-cont">
-              <label for="">Username</label> <br>
+              <label for="Username">Username</label> <br>
               <input type="text" id="Username">
             </div>
             <div class="input-cont">
-              <label for="">Password</label> <br>
+              <label for="Password">Password</label> <br>
               <input type="password" id="Password">
             </div>
             <div class="input-cont">
-              <label for="">Sdt</label> <br>
+              <label for="Sdt">Sdt</label> <br>
               <input type="text" id="Sdt">
             </div>
-            <input type="button" value="Dang nhap">
+            <div class="input-cont">
+              <label for="e-mail">Email: </label> <br>
+              <input name="Email" type="text" required />
+            </div>
+            <div>
+              <button type="submit">
+                Submit
+              </button>
+            </div>
+            
           </form>
           
         </div>
